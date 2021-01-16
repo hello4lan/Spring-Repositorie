@@ -1,0 +1,13 @@
+server:
+  port: 9022
+#servicio-productos:
+ # ribbon:
+  #  listOfServers: localhost:9020, localhost:9021
+spring:
+  application:
+    name: spring-servicio-items
+#eureka location
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

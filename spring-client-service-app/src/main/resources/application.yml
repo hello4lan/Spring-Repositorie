@@ -1,0 +1,3 @@
+spring:
+  application:    name: spring-client-service-app
+server:  port: 7700

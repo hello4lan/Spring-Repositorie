@@ -1,0 +1,8 @@
+spring:
+  application:    name: servicio-productos
+server:  port: ${PORT:0}
+#eureka location
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka  instance: #eureka instance    instance-id: ${spring.application.name}:${spring.kafka.streams.application_id:${random.value}} 
